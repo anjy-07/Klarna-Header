@@ -57,7 +57,7 @@ a{
     color: black;
 }
 .app-background{
-    min-height: 85vh;
+    min-height: 80vh;
     background-image: url('https://www.klarna.com/assets/sites/6/2020/04/16165549/HOME_panel.jpg');
     
 }
@@ -409,11 +409,10 @@ a{
     width: calc(50% - 3.125rem);
 }
 
-h1, .h1 {
-    
+h1, .h1 { 
     font-family:  "klarna_headlinebold", "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 114px;
-    line-height: 115px;
+    line-height: 110px;
     margin: 0 0 25px;
     font-weight: 700;
     margin-bottom: 29.7067px;

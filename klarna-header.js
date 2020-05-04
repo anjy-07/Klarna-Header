@@ -11,6 +11,7 @@ function headerMouseOver(){
   header.style.backgroundColor="white";
   header.style.borderBottom="1px solid #ededed";
   header.style.borderBottomWidth="thin";
+  backgroundImage.style.filter="brightness(0.2)";
 }
 
 function headerMouseOut(){  
@@ -24,29 +25,3 @@ function headerMouseOut(){
   backgroundImage = document.getElementsByClassName("background-media")[0];
   backgroundImage.style.filter=null; 
 }
-
-sectionMouseEnter = () => {
-    let navBar = document.getElementsByClassName("header-main__mega-menu")[0];
-    navBar.style.visibility="visible";
-    navBar.style.opacity="1";
-
-    let header = document.getElementsByClassName("header-main site-width")[0];
-    header.style.backgroundColor="white";
-    header.style.borderBottom="1px solid #ededed";
-    header.style.borderBottomWidth="thin";
-    
-    let backgroundImage = document.getElementsByClassName("background-media")[0];
-    backgroundImage.style.filter="brightness(0.2)"; 
-
-
-    let section = document.getElementsByClassName("header-main__mega-menu")[0];
-    section.style.visibility="visible";
-    section.style.opacity="1";   
-  }
-  sectionMouseOut = () =>{
-    let section = document.getElementsByClassName("header-main__mega-menu")[0];
-    section.style.visibility="hidden";
-    section.style.opacity="0";   
-
-    
-  }
