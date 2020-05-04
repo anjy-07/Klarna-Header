@@ -1,20 +1,23 @@
 <html>
 <link rel="stylesheet" href="./klarna-header.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <script src="./klarna-header.js"></script>
+<link rel="icon" type="image/png" href="./klarna-url-logo.png"/>
 <body>
-    <div class="fixed-top-anchor">
-        <header class="header-main">
-            <div class="header-main site-width">
+    <div class="fixed-top-anchor" >
+        <header class="header-main" onmouseleave="headerMouseOut(this)">
+            <div class="header-main site-width" >
                 <div class="header-main__wrap">
                     <div class="header-main__logo-link">
                         <div class="logo">
-                            <img src="https://x.klarnacdn.net/payment-method/assets/badges/generic/klarna.svg"
-                                alt="logo" height="36" width="120" />
+                            <img src="./klarna-removebg-preview.png"
+                                alt="logo" height="36" width="70" />
                         </div>
                     </div>
-                    <nav class="header-main-nav"   onmouseover="headerMouseOver(this)" onmouseout="headerMouseOut(this)">
+                    <nav class="header-main-nav" >
                         <div class="header-main__nav-items">
-                            <div class="header-main__nav-item">
+                            <div class="header-main__nav-item"  onmouseover="headerMouseOver(this)" >
                                 <a
                                     class="hyperlink header-main__nav-item-control header-main__nav-item-control--hyperlink">
                                     <span role="button" tabindex="0">
@@ -29,7 +32,7 @@
                                     </span>
                                 </a>
                             </div>
-                            <div class="header-main__nav-item">
+                            <div class="header-main__nav-item"  onmouseover="headerMouseOver(this)" >
                                 <a
                                     class="hyperlink header-main__nav-item-control header-main__nav-item-control--hyperlink">
                                     <span role="button" tabindex="0">
@@ -40,13 +43,13 @@
                                                 </font>
                                             </font>
                                         </span>
-                                        <i class="fa fa-angle-down" style="padding: 3px;" aria-hidden="true"></i>
+                                        <i class="fa fa-angle-down" style="padding: 3px;"  aria-hidden="true"></i>
                                     </span>
                                 </a>
                             </div>
                         </div>
                         <div class="header-main__mega-menus">
-                            <section class="header-main__mega-menu">
+                            <section class="header-main__mega-menu" >
                                 <ul class="mega-menu-column">
                                     <li class="row-item-container row-item-container--megamenu_directory">
                                         <div class="row-item__directory">
@@ -333,7 +336,7 @@
                         <button class="login-button">
                             <div class="login-button-container">
                                 <span>
-                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                    <i style="padding-left:7px; padding-right:2px" class="fa fa-angle-down" aria-hidden="true"></i>
                                     <span class="login-button-span">
                                         <font style="vertical-align: inherit;">
                                             <font style="vertical-align: inherit;">
@@ -383,7 +386,7 @@
                                 <span>
                                     <font style="vertical-align: inherit;">
                                         <font style="vertical-align: inherit;">
-                                            To the Klarna app
+                                            show all offers
                                         </font>
                                     </font>
                                 </span>

@@ -1,8 +1,41 @@
+@font-face {
+    font-family: "Klarna Headline";
+    font-weight: 700;
+    src: url("./KlarnaHeadline-Bold.otf") format('otf')       
+}
+@font-face {
+    font-family: "Klarna Text";
+    font-weight: 400;
+    src: url("https://x.klarnacdn.net/ui/fonts/v1.2/KlarnaText-Regular.woff2") format('woff2'),
+         url("https://x.klarnacdn.net/ui/fonts/v1.2/KlarnaText-Regular.woff") format('woff');
+}
+button {
+    text-align: left;
+    border: none;
+    -webkit-appearance: none;
+    font-family: "Klarna Text", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    line-height: inherit;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: unset;
+    color: unset;
+}
+/* .fa{
+    padding: 3px;
+    font-weight: 700;
+    font-size: larger;
+} */
+
 *{
     box-sizing: border-box;
 }
-body{
+body {
+    font-family: "Klarna Text", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 400;
     margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 ul {
     display: block;
@@ -148,7 +181,7 @@ a{
 }
 .header-main__label {
     position: relative;
-    font-weight: 500;
+    font-weight: 600;
     color: black;
     font-size: 15px;
     line-height: 1.5625rem;
@@ -164,8 +197,15 @@ a{
     opacity: 0;
     transform: translate3d(0, -5px, 0);
 }
-.header-main__nav-item-control:hover .header-main__label:before {
-    background: #487b94;
+.header-main__label:hover a{
+    color: #487b94;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-style: solid;
+}
+
+.header-main__nav-item-control:hover {
+   
 }
 .header-main__nav-item-control {
     transition: color 150ms ease;
@@ -327,18 +367,27 @@ a{
 }
 
 .login-button{
-    padding:0;margin:0;background-color:rgba(255, 255, 255, 0);border:none;cursor:pointer;outline:none;padding-left:0;padding-right:0;padding-top:0;padding-bottom:0;-webkit-tap-highlight-color:rgba(255, 255, 255, 0)
+    padding:0;
+    margin:0;
+    background-color:rgba(255, 255, 255, 0);
+    border:none;
+    cursor:pointer;
+    outline:none;
+    padding-left:0;
+    padding-right:0;
+    padding-top:0;
+    padding-bottom:0;
+    -webkit-tap-highlight-color:rgba(255, 255, 255, 0)
 }
 .login-button-container{
     box-sizing: border-box; display: flex; align-items: stretch; flex-direction: column; flex-shrink: 0; border-style: solid; border-width: 1px; position: relative; z-index: 0; min-height: 0px; min-width: 0px; background-color: rgb(255, 255, 255); border-color: rgb(209, 208, 206); border-radius: 20px; height: 30px; padding: 4px; transition: background-color 0.2s ease 0s, border-color 0.2s ease 0s;
 }
 .login-button-span{
     font-size: 0.9rem;
-    padding-left: 9px;
     padding-right: 9px;
 }
 .column {
-    margin-bottom: 3.125rem;
+    margin-bottom: 0.125rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -358,13 +407,15 @@ a{
 }
 
 h1, .h1 {
-    font-family: "Klarna Headline", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    
+    font-family:  "Klarna Headline", "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 114px;
     line-height: 115px;
     margin: 0 0 25px;
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 29.7067px;
 }
+
 h4, .h4 {
     font-family: "Klarna Text", "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 27px;
