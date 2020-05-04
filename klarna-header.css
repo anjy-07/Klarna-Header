@@ -494,8 +494,7 @@ h4, .h4 {
 }
 
 
-    @media only screen  and (min-width : 1200px) {
-       
+    @media only screen  and (min-width : 1500px) {   
         .app-background{
             min-height: 70vh;
         }
