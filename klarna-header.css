@@ -1,7 +1,10 @@
 @font-face {
-    font-family: "Klarna Headline";
-    font-weight: 700;
-    src: url("./KlarnaHeadline-Bold.otf") format('otf')       
+    font-family: 'klarna_headlinebold';
+    src: url('klarnaheadline-bold-webfont.woff2') format('woff2'),
+         url('klarnaheadline-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 @font-face {
     font-family: "Klarna Text";
@@ -408,7 +411,7 @@ a{
 
 h1, .h1 {
     
-    font-family:  "Klarna Headline", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family:  "klarna_headlinebold", "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 114px;
     line-height: 115px;
     margin: 0 0 25px;
