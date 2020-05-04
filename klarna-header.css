@@ -190,6 +190,9 @@ a{
     display: flex;
     transition: all 150ms ease;
 }
+.header-main__nav-item{
+   cursor: pointer;
+}
 
 
 .header-main__nav-item-control span {
@@ -231,6 +234,7 @@ a{
     padding: 1.5625rem;
     align-items: center;
     display: flex;
+    cursor: pointer;
 }
 
 .row-item.hyperlink .row-item__hoverable-label, .row-item.hyperlink .product-lockup__title, .row-item.row-item--product .row-item__hoverable-label, .row-item.row-item--product .product-lockup__title {
