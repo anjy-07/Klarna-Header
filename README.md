@@ -1,1 +1,1 @@
-![Alt Text](https://drive.google.com/open?id=1tu6ZM1-IlgqpZWi-1JvUWIrv7dJ8SNN0/view)
+![Alt Text](https://github.com/anjy-07/klarna-header/blob/master/klarna-demo-1.gif)
